@@ -516,35 +516,38 @@
 <!-- Hero Section -->
 <section id="home" class="relative text-white py-16 sm:py-24 lg:py-36 overflow-hidden min-h-[580px] lg:min-h-[680px] flex items-center bg-slate-900">
 
-    <!-- Slide 1 -->
+    <!-- Slide 1 (loads first, high priority) -->
     <div class="hero-bg-slide absolute inset-0 transition-opacity duration-1000 opacity-100 z-0">
-        <img src="https://raw.githubusercontent.com/africantycoons1-spec/Dr.-Abdi-Specialty-Dental-Clinic/main/resources/hero/Gemini_Generated_Image_rzb4fprzb4fprzb4.jfif"
+        <img src="https://cdn.jsdelivr.net/gh/africantycoons1-spec/Dr.-Abdi-Specialty-Dental-Clinic@main/resources/hero/Gemini_Generated_Image_rzb4fprzb4fprzb4.jfif"
              fetchpriority="high"
              loading="eager"
+             decoding="async"
              onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/0e54ae/ffffff?text=Hero+Image+1';"
              alt="Dr. Abdi Specialty Dental Clinic"
              class="w-full h-full object-cover">
     </div>
 
-    <!-- Slide 2 -->
+    <!-- Slide 2 (lazy) -->
     <div class="hero-bg-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0">
-        <img src="https://raw.githubusercontent.com/africantycoons1-spec/Dr.-Abdi-Specialty-Dental-Clinic/main/resources/hero/hero%20(1).jpg"
+        <img src="https://cdn.jsdelivr.net/gh/africantycoons1-spec/Dr.-Abdi-Specialty-Dental-Clinic@main/resources/hero/hero%20(1).jpg"
              loading="lazy"
+             decoding="async"
              onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/0e54ae/ffffff?text=Hero+Image+2';"
              alt="Dr. Abdi Specialty Dental Clinic"
              class="w-full h-full object-cover">
     </div>
 
-    <!-- Slide 3 -->
+    <!-- Slide 3 (lazy) -->
     <div class="hero-bg-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0">
-        <img src="https://raw.githubusercontent.com/africantycoons1-spec/Dr.-Abdi-Specialty-Dental-Clinic/main/resources/hero/Gemini_Generated_Image_40qzha40qzha40qz.jfif"
+        <img src="https://cdn.jsdelivr.net/gh/africantycoons1-spec/Dr.-Abdi-Specialty-Dental-Clinic@main/resources/hero/Gemini_Generated_Image_40qzha40qzha40qz.jfif"
              loading="lazy"
+             decoding="async"
              onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/0e54ae/ffffff?text=Hero+Image+3';"
              alt="Dr. Abdi Specialty Dental Clinic"
              class="w-full h-full object-cover">
     </div>
 
-    <!-- Overlay (keeps text readable) -->
+    <!-- Overlay -->
     <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-slate-950/70 z-1"></div>
 
     <!-- Three.js Particle Canvas -->
